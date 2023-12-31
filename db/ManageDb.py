@@ -7,7 +7,7 @@ class Database:
         self.con = sqlite3.connect(db_path)
         self.cursor = self.con.cursor()
 
-    def showTable(self, table):
+    def getTable(self, table):
         query = f"SELECT * FROM {table}"
         self.cursor.execute(query)
         rows = self.cursor.fetchall()

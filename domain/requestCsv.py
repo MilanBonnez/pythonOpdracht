@@ -3,7 +3,7 @@ import pandas as pd
 
 class fileGenerator:
 
-	def generate_csv(data, fileName):
+	def generateCsv(data, fileName):
 		try:
 			df = pd.DataFrame(data)
 		except Exception as e:
