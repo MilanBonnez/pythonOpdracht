@@ -1,5 +1,5 @@
 import db.ManageDb as manageDb
-import domain.requestCsv
+import domain.requestCsv as requestCsv
 
 def printCommandos():
     print("Mogelijke commando's:")
